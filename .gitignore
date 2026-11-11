@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Medical datasets
+datasets/
+*.dcm
+*.nii
+*.nii.gz
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs
+outputs/
+runs/
+wandb/
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
